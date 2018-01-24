@@ -1,0 +1,105 @@
+#content{
+    width: 650px;
+    border: solid 1px #666;
+    background-color: #fff;
+    padding: 15px;
+}
+
+#sidebar{
+    width: 270px;
+    margin-left: 40px;
+    border: solid 1px #666;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+#holder{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header{
+    border: 1px solid #ccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #fff;    
+}
+
+#footer{
+    border: solid 1px #777;
+    background-color: #666;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    border-top: solid 5px #4aaaa5;
+}
+
+body{
+    background-image: url("../images/concrete-texture.png");
+}
+
+#jaime {
+    color: white;
+    padding: 20px 20px;
+    background-color: #4aaaa5;
+    font-weight:      bold;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    font-stretch: ultra-expanded;
+}
+
+a{
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+}
+
+#links{
+    margin: 20px 20px; 
+}
+
+#myPic{
+    float: left;
+    width:200px;
+    padding: 20px 20px;
+}
+
+#icons{
+    padding: 10px 10px;
+}
+
+/* contact box */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#contact {
+ margin: 20px 20px;
+}
+
+#folders {
+    display: inline-block;
+    border: 3px solid #4aaaa5; 
+    width: 160px;
+    margin: 10px 10px;
+}
