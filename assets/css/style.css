@@ -1,24 +1,23 @@
 #content{
-    width: 650px;
     border: solid 1px #ddd;
     background-color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #sidebar{
-    width: 270px;
-    margin-left: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     border: solid 1px #ddd;
     text-align: center;
     background-color: #fff;
 }
 
 #holder{
-    width: 960px;
-    margin: 0 auto;
     min-height: 78vh;
 }
 
@@ -31,10 +30,7 @@
     border: solid 1px #ddd;
     background-color: #666;
     text-align: center;
-    position: relative;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    position: inherit;
     padding: 20px 20px;
     border-top: solid 5px #4aaaa5;
     color: white;
@@ -52,7 +48,6 @@ body{
     background-color: #4aaaa5;
     font-weight:      bold;
     font-family: 'Georgia', Times, Times New Roman, serif; 
-    font-stretch: ultra-expanded;
 }
 
 a{
@@ -62,7 +57,7 @@ a{
 }
 
 #icons{
-    margin: 10px 10px;
+    margin: 20px 20px;
 }
 
 #links{
@@ -70,9 +65,9 @@ a{
 }
 
 #myPic{
-    float: left;
-    width:200px;
-    padding: 20px 20px;
+    /* float: left; */
+    width:400px;
+    margin: 20px 20px;
 }
 
 h1,
@@ -120,12 +115,14 @@ input[type=submit]:hover {
 #folders {
     display: inline-block;
     border: 3px solid #777; 
-    width: 120px;
-    margin: 5px 5px;
+    width: 170px;
+    margin: 15px 15px;
+    background-image: url("../images/concrete-texture.png");
 }
 
 p{
     color: #777;
+    margin-bottom: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
